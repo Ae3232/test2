@@ -1,0 +1,19 @@
+.footer {
+	position: relative;
+	&:after {
+		content: "";
+		position: absolute;
+		height: 100%;
+		margin: 0 -10000px;
+		left: 0;
+		right: 0;
+		top: 0;
+		background: #000000;
+		z-index: -1;
+	}
+}
+.copyright {
+	color: rgba(255, 255, 255, 0.4);
+	font-size: 16px;
+	line-height: 72px;
+}

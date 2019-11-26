@@ -1,0 +1,16 @@
+.title-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  &__link {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 20px;
+    line-height: 32px;
+    &:not(:last-child) {
+      margin-right: 24px;
+    }
+    &.--color_white {
+      color: rgba(255, 255, 255, 0.6);
+    }
+  }
+}

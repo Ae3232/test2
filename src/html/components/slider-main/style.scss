@@ -1,0 +1,43 @@
+.slider-main {
+  display: flex;
+  position: relative;
+  padding: 32px 0 96px 0;
+  &:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    margin: 0 -10000px;
+    left: 0;
+    right: 0;
+    top: 0;
+    background: #F6F6F6;
+    z-index: -1;
+  }
+  &__item {
+    background: #ffffff;
+    margin-right: 24px;
+    padding-bottom: 85px;
+    &.--background_none {
+      background: none;
+    }
+  }
+  &__wrapper-image {
+    width: 450px;
+    height: 160px;
+    margin-bottom: 12px;
+    &.--height {
+      height: 240px;
+    }
+  }
+  &__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  &__decription {
+    padding: 0 24px;
+    font-size: 20px;
+    line-height: 32px;
+    color: #000000;
+  }
+}
