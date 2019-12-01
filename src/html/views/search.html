@@ -1,0 +1,71 @@
+<% var data = {
+title: "Заголовок | Проект",
+author: "Harrix"
+}; %>
+<%= _.template(require('./../includes/header.html').default)(data) %>
+
+<main class="main">
+    <section class="content-page-without_style">
+        <nav class="bread-crumbs">
+            <ul class="bread-crumbs__list">
+                <li class="bread-crumbs__item">
+                    <a href="" class="bread-crumbs__link">Главная /</a>
+                </li>
+                <li class="bread-crumbs__item">
+                    <a href="" class="bread-crumbs__link">Внешняя Торговля /</a>
+                </li>
+                <li class="bread-crumbs__item">
+                    <a href="" class="bread-crumbs__link">Экспорт /</a>
+                </li>
+                <li class="bread-crumbs__item">
+                    <a href="" class="bread-crumbs__link">Экспортный потенциал</a>
+                </li>
+            </ul>
+        </nav>
+        <h1>Результаты поиска по запросу: «Министерство иностранных дел»</h1>
+        <div class="tabs">
+            <div class="tabs__item">
+                    <a href="" class="tabs-content__item">
+                        <h2 class="tabs-content__head">О встрече заместителя Министра
+                            иностранных дел Беларуси А.Дапкюнаса с
+                            Постоянным представителем Программы развития ООН в Беларуси
+                        </h2>
+                        <span class="date --small">21 октября 2019</span>
+                    </a>
+                    <a href="" class="tabs-content__item">
+                        <h2 class="tabs-content__head">О совместной с Советом Европы конференции “Заключение, исполнение и толкование международных договоров”
+                        </h2>
+                        <span class="date --small">21 октября 2019</span>
+                    </a>
+                    <a href="" class="tabs-content__item">
+                        <h2 class="tabs-content__head">О встрече заместителя Министра
+                            иностранных дел Беларуси А.Дапкюнаса с
+                            Постоянным представителем Программы развития ООН в Беларуси
+                        </h2>
+                        <span class="date --small">21 октября 2019</span>
+                    </a>
+                    <a href="" class="tabs-content__item">
+                        <h2 class="tabs-content__head">О совместной с Советом Европы конференции “Заключение, исполнение и толкование международных договоров”
+                        </h2>
+                        <span class="date --small">21 октября 2019</span>
+                    </a>
+                </div>
+                <div class="tabs-content">
+                    <a href="" class="tabs-content__item">
+                        <h2 class="tabs-content__head">О встрече заместителя Министра
+                            иностранных дел Беларуси А.Дапкюнаса с
+                            Постоянным представителем Программы развития ООН в Беларуси
+                        </h2>
+                        <span class="date --small">21 октября 2019</span>
+                    </a>
+                    <a href="" class="tabs-content__item">
+                        <h2 class="tabs-content__head">О совместной с Советом Европы конференции “Заключение, исполнение и толкование международных договоров”
+                        </h2>
+                        <span class="date --small">21 октября 2019</span>
+                    </a>
+                </div>
+        </div>
+        <a href="" class="more-button">Показать еще</a>
+    </section>
+
+    <%= _.template(require('./../includes/footer.html').default)(data) %>

@@ -2,24 +2,29 @@ body {
 	background-color: #ffffff;
 	color: $general_text-color;
 	font-family: 'Roboto', sans-serif;
+	overflow-x: hidden;
 }
 .wrapper {
 	max-width: 1400px;
 	margin: 0 auto;
 }
-img {
+img, iframe {
 	max-width: 100%;
 	max-height: 100%;
 }
 a {
 	text-decoration: none;
 }
+p {
+	font-size: 22px;
+	line-height: 40px;
+}
 h1 {
 	font-size: 30px;
 	line-height: 32px;
 	font-weight: bold;
 	margin-right: auto;
-	&.--color_white {
+	&._color_white {
 		color: #ffffff;
 	}
 }
@@ -27,13 +32,14 @@ h1 {
 	font-size: 20px;
 	line-height: 32px;
 	color: #000000;
-	&.--padding_24 {
+	&._padding_24 {
 		padding: 0 24px;
 	}
-	&.--color_white {
+	&._color_white {
 		color: #ffffff;
 	}
-	&.--minheight_60 {
+	&._minheight_60 {
 		min-height: 60px;
 	}
 }
+

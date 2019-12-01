@@ -1,0 +1,18 @@
+.contacts {
+  &__h2 {
+    margin: 55px 0 55px 0;
+  }
+  &__row {
+    margin-bottom: 121px;
+  }
+  &__cell {
+    font-size: 22px;
+    line-height: 40px;
+    color: #000000;
+    padding-bottom: 52px;
+    &:first-child {
+      font-weight: bold;
+      width: 47%;
+    }
+  }
+}

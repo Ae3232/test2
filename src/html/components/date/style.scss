@@ -2,7 +2,10 @@
   font-size: 18px;
   line-height: 32px;
   color: rgba(0, 0, 0, 0.6);
-  &.--small {
+  &._small {
     font-size: 16px;
+  }
+  &._big {
+    font-size: 22px;
   }
 }

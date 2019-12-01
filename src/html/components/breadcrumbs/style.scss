@@ -1,0 +1,17 @@
+.bread-crumbs {
+  &__list {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  &__item {
+    margin-right: 6px;
+  }
+  &__link {
+    font-size: 16px !important;
+    line-height: 32px !important;
+    color: rgba(0, 0, 0, 0.4) !important;
+    text-decoration: none !important;
+  }
+}
+

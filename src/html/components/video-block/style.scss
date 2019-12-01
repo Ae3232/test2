@@ -1,0 +1,21 @@
+.video-block {
+  display: flex;
+  flex-wrap: wrap;
+  &__item {
+    flex: 1 1;
+    min-width: 46%;
+    max-width: 46%;
+    margin-bottom: 94px;
+    &:not(:nth-child(2n+2)) {
+      margin-right: 8%;
+    }
+  }
+  &__text {
+    font-size: 20px;
+    line-height: 32px;
+    color: #000000;
+    font-weight: bold;
+    min-height: 64px;
+    max-height: 64px;
+  }
+}
